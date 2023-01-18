@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type ="text/javascript"src="script.js"></script>
+    
+    <title>crifador</title>
+</head>
+<body>
+
+    <header>
+        <img src="descarga.png" alt="logo alura">
+    </header>
+    <!-- texto del ecriptador-->   
+    <main>
+        <section class="seccion_1">
+           <textarea class ="textarea" id="textoencriptado"  placeholder="Escribe tu texto aqui"></textarea>        
+           
+           <div class="contenedor_botones">
+                <button type ="button" id="botonEncritador">Encriptar</button>
+                <button type ="button" id="botondesencritar">Desencriptar</button>
+                <button type ="button" id ="copiar">Copiar</button> 
+                
+            </div>
+        </section>
+        <section class="seccion_2">
+            <div class="contenedor_imagen" ><img src="Muñeco.png"  alt=""></div>
+            <div class="contenedor_subtitulo">
+                <textarea id="textodesencriptado"></textarea>
+            </div>
+            <div class="contenedor_parrafo"  >
+                <p>Escribe el texto que desea encriptar o desencriptar</p>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <h1>Reto 1 de Alura by Jose de Jesus</h1>
+    </footer>
+       
+
+
+
+
+<script>
+    var btn = document.querySelector("#botonEncritador");
+    btn.onclick =encriptar;
+    var btn2 = document.querySelector("#botondesencritar")
+    btn2.onclick =desencriptar;
+    var btn3 =document.querySelector("#copiar");
+    btn3.onclick =copiar;
+   
+</script>
+
+</html>

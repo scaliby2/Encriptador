@@ -1,0 +1,133 @@
+#copiar{
+    display: none;
+}
+
+*{
+    margin:0;
+    padding: 0;
+   
+}
+header{
+   width: 100%;
+    height:80px ;
+    background-color:black ;
+}
+header img {
+    height: 80px;
+}
+main {
+    width: 100%;
+    height: 600px;
+    background-color: blue;
+      display: flex;
+      justify-content: space-between;
+}
+footer{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+section{    
+    height: 100%;
+    background-color: aquamarine;
+}
+.seccion_1{
+    width: 60%;
+}
+.seccion_2{
+    width: 30%;
+}
+.contenedor_imagen{
+width: 100%;
+height: 60%;
+padding-top: 100px;
+text-align: center;
+}
+.contenedor_subtitulo{
+   text-align: center;
+   
+   font-size: small;
+}
+.contenedor_parrafo{
+    margin-top: 20px;
+    text-align: center;
+    font-style: oblique;
+    font-size: medium;
+}
+.textarea{
+    
+    width: 90%;
+    height: 70%;
+    resize: none;
+    display: block;
+    text-align: center;
+    margin:auto;
+    margin-top:50px;
+    font-size: 20px;
+    border-radius: 20px;
+    border:0;
+    color:white;
+    background-color: black;
+    outline: 0;
+}
+.contenedor_botones{
+ text-align: center;
+    margin-top: 10px;
+}
+#botonEncritador{
+    background-color: purple;
+    color:white;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#botondesencritar{
+    background-color: purple;
+    color:white;
+    width: 30%;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#copiar {
+    background-color: purple;
+    color:white;
+    width: 30%;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 290px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#botonEncritador:hover,#botondesencritar:hover, #copiar:hover{
+    background-color: white;
+    color:black;
+}
+#botonEncritador:active,#botondesencritar:active, #copiar:active{
+    background-color: red;
+}
+#textodesencriptado
+{
+    width: 90%;
+    height: 80px;
+    resize: none;
+    display: block;
+    text-align: center;
+    margin:auto;    
+    font-size: 20px;
+    border-radius: 20px;
+    border:0;
+    color:white;
+    background-color: black;
+    outline: 0;
+}
+
+
+
